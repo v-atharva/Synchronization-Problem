@@ -1,0 +1,296 @@
+﻿<Controls:MetroWindow x:Class="Operating_Car_Proje.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      Title="MainWindow"
+                      Height="500"
+                      Width="500"
+                      GlowBrush="Black"
+                      Background="#FF2F2F45"
+                      ResizeMode="NoResize"
+                      ShowTitleBar="False"
+                      WindowStartupLocation="CenterScreen">
+
+    <Grid x:Name="MainBoard">
+        <Image x:Name="roadImage" Source="Road.png" />
+
+
+        <!-- Road 1 -->
+        <Image x:Name="Road1_3" Source="car1.png"  Margin="30 0 0 133"  Width="90" Height="90" Visibility="Hidden">
+            <Image.RenderTransform>
+                <RotateTransform Angle="121">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+
+        </Image>
+
+        <Image x:Name="Road1_2" Source="car1.png" Margin="-92 0 0 205"   Width="90" Height="90" Visibility="Hidden">
+            <Image.RenderTransform>
+                <RotateTransform Angle="122">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+
+        </Image>
+        <Image x:Name="Road1_1" Source="car1.png" Width="90" Height="90" Visibility="Hidden" Margin="96,53,308,328">
+            <Image.RenderTransform>
+                <RotateTransform Angle="122">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        
+        <!-- Road 1 Bride-->
+        <Image x:Name="Road1_b1" Source="car1.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="301,130,0,251">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Road1_b2" Source="car1.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="368,131,0,251">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Road1_b3" Source="car1.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="435,132,-31,251">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Road1_b4" Source="car1.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="503,132,-99,251">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+
+
+
+
+
+        <!-- Road 2 -->
+        <Image x:Name="Road2_3" Source="car2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="190,162,0,217">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Road2_2" Source="car2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="125,162,0,217">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Road2_1" Source="car2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="60,163,0,218">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        <!--Road 2 Bridge-->
+
+        <!-- Road 2 Topside -->
+        <Image x:Name="Road2_btop1" Source="car2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="301,130,0,251">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Road2_btop2" Source="car2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="368,131,0,251">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>       
+        <Image x:Name="Road2_btop3" Source="car2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="435,132,-31,251">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Road2_btop4" Source="car2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="503,132,-99,251">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        <!-- Road 2 Botside -->
+        <Image x:Name="Road2_bbot1" Source="car2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="301,130,0,121">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+
+        <Image x:Name="Road2_bbot2" Source="car2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="368,131,0,121">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+
+        <Image x:Name="Road2_bbot3" Source="car2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="435,132,-31,121">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Road2_bbot4" Source="car2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="503,132,-99,121">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        
+        <!--  Road 3 -->
+        <Image x:Name="Road3_3" Source="car3.png" HorizontalAlignment="Left" VerticalAlignment="Bottom" Visibility="Hidden" Width="90" Height="90" Margin="174,0,0,178">
+            <Image.RenderTransform>
+                <RotateTransform Angle="54">
+
+                </RotateTransform>
+
+            </Image.RenderTransform>
+
+        </Image>
+        <Image x:Name="Road3_2" Source="car3.png" HorizontalAlignment="Left" VerticalAlignment="Bottom" Visibility="Hidden" Width="90" Height="90" Margin="118,0,0,140">
+            <Image.RenderTransform>
+                <RotateTransform Angle="55">
+
+                </RotateTransform>
+
+            </Image.RenderTransform>
+
+        </Image>
+
+        <Image x:Name="Road3_1" Source="car3.png" HorizontalAlignment="Left" VerticalAlignment="Bottom" Visibility="Hidden" Width="90" Height="90" Margin="62,0,0,101">
+            <Image.RenderTransform>
+                <RotateTransform Angle="55">
+
+                </RotateTransform>
+
+            </Image.RenderTransform>
+
+        </Image>
+        <!-- Road 3 Bridge -->
+
+        <Image x:Name="Road3_b1" Source="car3.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="301,130,0,121">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+
+        <Image x:Name="Road3_b2" Source="car3.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="368,131,0,121">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+
+        <Image x:Name="Road3_b3" Source="car3.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="435,132,-31,121">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Road3_b4" Source="car3.png" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Hidden" Width="90" Height="90" Margin="503,132,-99,121">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+        </Image>
+
+<!-- Lights -->
+        <Image x:Name="Road1green" Source="Green.png" Visibility="Hidden" Width="45" Height="5" Margin="212,149,237,317">
+            <Image.RenderTransform>
+                <RotateTransform Angle="122">
+                    
+                </RotateTransform>
+            </Image.RenderTransform>
+            
+        </Image>
+        <Image x:Name="Road1red" Source="Red.png" Visibility="Hidden" Width="45" Height="5" Margin="212,149,237,317">
+            <Image.RenderTransform>
+                <RotateTransform Angle="122">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+
+        </Image>
+
+        <Image x:Name="Road2green" Source="Green.png" Visibility="Hidden" Width="45" Height="5" Margin="187,190,262,278">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+
+        </Image>
+        <Image x:Name="Road2red" Source="Red.png" Visibility="Hidden" Width="45" Height="5" Margin="187,190,262,278">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+
+        </Image>
+        <Image x:Name="Road3green" Source="Green.png" Visibility="Hidden" Width="45" Height="5" Margin="189,234,260,232">
+            <Image.RenderTransform>
+                <RotateTransform Angle="55">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+
+        </Image>
+
+        <Image x:Name="Road3red" Source="Red.png" Visibility="Hidden" Width="45" Height="5" Margin="189,234,260,232">
+            <Image.RenderTransform>
+                <RotateTransform Angle="55">
+
+                </RotateTransform>
+            </Image.RenderTransform>
+
+        </Image>
+
+
+        <Canvas x:Name="Area" Margin="10 10 10 10">
+            <TextBlock x:Name="Green" Text="Green Cars : " TextWrapping="Wrap" Foreground="White" Canvas.Left="300" Canvas.Top="20"/>
+            <TextBlock x:Name="Red" Text="Red Cars : " TextWrapping="Wrap" Foreground="White" Canvas.Left="312" Canvas.Top="40"/>
+            <TextBlock x:Name="Blue" Text="Blue Cars : " TextWrapping="Wrap" Foreground="White" Canvas.Left="310" Canvas.Top="60"/>
+            <TextBlock x:Name="GreenCount" Text="0" TextWrapping="Wrap" Foreground="Green" Canvas.Left="370" Canvas.Top="20" />
+            <TextBlock x:Name="RedCount" Text="0" TextWrapping="Wrap" Foreground="Red" Canvas.Left="370" Canvas.Top="40" />
+            <TextBlock x:Name="BlueCount" Text="0" TextWrapping="Wrap" Foreground="Blue" Canvas.Left="370" Canvas.Top="60" />
+            <Button x:Name="Start" Click="Start_Click" Content="GO !" Width="80" Height="30" Canvas.Top="380" Canvas.Left="370" />
+
+
+        </Canvas>
+
+
+    </Grid>
+
+          
+    
+    
+</Controls:MetroWindow>
